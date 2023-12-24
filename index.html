@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading....</title>
+    <link rel="stylesheet" href="loading.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+          <h1>Загрузка</h1>
+          <div class="loader"></div>
+        </div>
+      </div>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          setTimeout(function () {
+            document.getElementById("loadingScreen").style.display = "none";
+            window.location.href = "main.html";
+          }, 2000);
+        });
+      </script>
+</body>
+</html>
