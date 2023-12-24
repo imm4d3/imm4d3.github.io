@@ -71,6 +71,22 @@ body {
   background-color: #2666c5;
 }
 
+.btn1 {
+  white-space: nowrap;
+  padding: 12px 32px; 
+  outline: none;
+  border: none;
+  font-size: 16px; 
+  color: #ffffff;
+  background-color: #3685fb;
+  border-radius: 32px; 
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn1:hover {
+  background-color: #2666c5;
+}
 a {
   text-decoration: none;
 }
@@ -496,6 +512,10 @@ header {
 
   .trip__grid {
     grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .btn1 {
+    width: 35%;
   }
 }
 
@@ -519,4 +539,33 @@ header {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .btn1 {
+    display:none;
+  }
+
+  .header__image {
+    margin-left: 24px;
+  }
+
+  .section__subtitle {
+    font-weight: bold;
+  }
+  .btn {
+    margin-left: 10px;
+
+  }
+  .check {
+    display: none;
+  }
+
+  .action__btns {
+    margin-left: 20px;
+  }
+
+  .jopa {
+    font-size: 30px !important;
+    margin-left: 20px;
+  }
+
+
 }
