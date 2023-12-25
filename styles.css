@@ -578,10 +578,12 @@ header {
     display:none;
   }
 
-  .header__image {
-    margin-left: 24px;
+  .header1 {
+    margin-left: 50px;
   }
-
+  .header2 {
+    display: none;
+  }
   .section__subtitle {
     font-weight: bold;
   }
@@ -616,10 +618,18 @@ header {
   .partners__grid {
     display: flex;
     flex-flow: column;
+    max-width: 300px;
   }
-
   .btn2 {
-    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+  .partners__card {
+    width: 300px;
   }
 }
 
